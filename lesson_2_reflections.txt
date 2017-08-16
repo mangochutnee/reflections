@@ -12,3 +12,6 @@ Some examples: when I want to try something experimental and I'm not sure how it
 
 How do the diagrams help you visualize the branch structure?
 They helped understand that branches are recorded historically. The diagrams also helped show which commits were unreachable because they physically could not be traced back to a branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging automatically creates a file (or files) that combine all of the additions and deletions from the commits in their respective branches. The output is a single commit which has commits from two branches as its parents.
