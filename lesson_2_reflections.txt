@@ -15,3 +15,8 @@ They helped understand that branches are recorded historically. The diagrams als
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging automatically creates a file (or files) that combine all of the additions and deletions from the commits in their respective branches. The output is a single commit which has commits from two branches as its parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Speeds up workflow, doesn't force you to look at merges where there are no conflicts
+Cons: Not intelligent enough to determine which is the logical choice when comparing diffs so any diffs must be manually merged
+
