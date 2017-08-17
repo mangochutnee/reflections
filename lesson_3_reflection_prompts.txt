@@ -3,3 +3,8 @@ Usually when working with others, either through a private repo with your own te
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Pull when it makes the most sense in your workflow, generally between commits or when someone else has pushed a major commit. You don't want Git automatically updating for you and overwriting your most recent changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork: Copy a GitHub repo into your GitHub profile. Use when you want to create a different version of someone else's existing repo and you want to give them credit.
+Clone: Copy a GitHub repo onto your local machine. Use when you want to work directly with that repo.
+Branch: Create a new set of commits that deviates from the master branch. Use when you want to make new or experimental commits to your current repo that won't affect master/production.
