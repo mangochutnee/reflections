@@ -11,3 +11,6 @@ Branch: Create a new set of commits that deviates from the master branch. Use wh
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 One benefit is being able to compare the changes you've made without requiring internet connectivity.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We could save the files in a cloud storage system like Dropbox, but that would only save one "branch" and there wouldn't be a way to automatically merge two versions of a document. However people would be able to collaborate in real time without having to check out files or comparing their local copy to the remote.
