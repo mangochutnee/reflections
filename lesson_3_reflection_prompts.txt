@@ -14,3 +14,6 @@ One benefit is being able to compare the changes you've made without requiring i
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 We could save the files in a cloud storage system like Dropbox, but that would only save one "branch" and there wouldn't be a way to automatically merge two versions of a document. However people would be able to collaborate in real time without having to check out files or comparing their local copy to the remote.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I would use branches when working on a complex project or one with multiple contributors. I might work directly on master if it is a small, personal project.
